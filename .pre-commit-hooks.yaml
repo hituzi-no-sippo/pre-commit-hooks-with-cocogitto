@@ -1,0 +1,7 @@
+---
+- id: lint-commit-msg-with-cocogitto
+  name: Check git commit message with cocogitto
+  description: Check git commit message with cocogitto
+  language: script
+  entry: scripts/lint-commit-msg.sh
+  stages: [commit-msg]
